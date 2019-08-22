@@ -2,9 +2,9 @@
 
 letsfreckle-client is a Ruby client for accessing the Let's Freckle API.
 Let's Freckle is an intuitive time-tracking service.
-See http://www.letsfreckle.com for more information.
+See http://www.nokotime.com for more information.
 
-API information can be found at http://developer.letsfreckle.com/
+API information can be found at http://developer.nokotime.com/
 
 == Installation
 
@@ -16,7 +16,7 @@ letsfreckle-client is available as a RubyGem:
 
 The following examples show how to access functions of the API. In order to use
 the client, you must have an API token. You can access your token via your
-letsfreckle.com settings/profile. Note that currently letsfreckle.com hosts
+nokotime.com settings/profile. Note that currently nokotime.com hosts
 a sample API test account, which the following examples utilize.
 
 === Example:
@@ -24,7 +24,7 @@ a sample API test account, which the following examples utilize.
     # Configure the client before fetching data.
     LetsFreckle.configure do
       account_host "apitest"
-      username "apitest@letsfreckle.com"
+      username "apitest@nokotime.com"
       token "lx3gi6pxdjtjn57afp8c2bv1me7g89j"
     end
 
@@ -82,4 +82,3 @@ Tests are written in rspec, use `bundle exec rspec spec/*` to run the tests.
 
 Copyright (c) 2011 Ryan LeCompte. See LICENSE for
 further details.
-

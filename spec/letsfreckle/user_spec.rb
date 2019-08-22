@@ -14,7 +14,7 @@ describe LetsFreckle::User do
       users.size.should == 2
 
       first_user = users.first
-      first_user.email.should == 'apitest@letsfreckle.com'
+      first_user.email.should == 'apitest@nokotime.com'
     end
   end
 end

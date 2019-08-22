@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <users type="array">
   <user>
-    <email>apitest@letsfreckle.com</email>
+    <email>apitest@nokotime.com</email>
     <first-name>Test</first-name>
     <id type="integer">5538</id>
     <last-name>User</last-name>
@@ -11,7 +11,7 @@
     <permissions>integration, time, invoicing, reports, tags, expenses, projects, team, people, account, billing, import</permissions>
   </user>
   <user>
-    <email>apitest2@letsfreckle.com</email>
+    <email>apitest2@nokotime.com</email>
     <first-name>Test2</first-name>
     <id type="integer">5539</id>
     <last-name>User</last-name>

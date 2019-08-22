@@ -6,7 +6,7 @@ require 'letsfreckle'
 # Configure the API credentials.
 LetsFreckle.configure do
   account_host "apitest"
-  username "apitest@letsfreckle.com"
+  username "apitest@nokotime.com"
   token "lx3gi6pxdjtjn57afp8c2bv1me7g89j"
 end
 
@@ -34,8 +34,3 @@ puts "Fetch all users and associated permissions:"
 LetsFreckle::User.all.each do |user|
   puts "User #{user.email} has following permissions: #{user.permissions}"
 end
-
-
-
-
-

@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Ryan LeCompte"]
   s.email       = ["lecompte@gmail.com"]
   s.homepage    = "http://github.com/ryanlecompte/letsfreckle-client"
-  s.summary     = %q{Ruby client for letsfreckle.com API}
-  s.description = %q{Ruby client for letsfreckle.com API that supports entries, projects, tags, and users}
+  s.summary     = %q{Ruby client for nokotime.com API}
+  s.description = %q{Ruby client for nokotime.com API that supports entries, projects, tags, and users}
 
   s.required_ruby_version = '>= 1.8.7'
   s.required_rubygems_version = ">= 1.3.6"

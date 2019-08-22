@@ -26,7 +26,7 @@ module LetsFreckle
     end
 
     def base_api_url
-      "https://#{LetsFreckle.config.account_host}.letsfreckle.com"
+      "https://#{LetsFreckle.config.account_host}.nokotime.com"
     end
 
     def relative_path_for(resource, page = nil)
